@@ -10,7 +10,7 @@ from torchvision import datasets, transforms
 import os
 
 # Hyper Parameters
-EPOCH = 200                    # the training times
+EPOCH = 30                     # the training times
 BATCH_SIZE = 128               # not use all data to train
 SHOW_STEP = 101                # show the result after how many steps
 CHANGE_EPOCH = 4               # change learning rate

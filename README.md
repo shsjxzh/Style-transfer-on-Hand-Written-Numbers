@@ -1,4 +1,4 @@
-# Style-transfer-on-Hand-Written-Numbers
+# Style transfer on Hand Written Numbers
 <center><img src="./assets/demo.JPG" align="middle" width="692"></center>
 
 ## Introduction

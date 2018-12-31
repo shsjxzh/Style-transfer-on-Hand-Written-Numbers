@@ -1,1 +1,1 @@
-put the mnist data set here(in pytorch form)!
+put the mnist data set here (in pytorch form)!

@@ -5,21 +5,15 @@ import torchvision # this is the database of torch
 import torchvision.models as models
 from torchvision.utils import save_image
 from torch.nn import init
-
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-import matplotlib.gridspec as gridspec
+from torchvision import datasets, transforms
 
 import os
-import numpy as np
-from torchvision import datasets, transforms
 
 # Hyper Parameters
 EPOCH = 200                    # the training times
 BATCH_SIZE = 128               # not use all data to train
 SHOW_STEP = 101                # show the result after how many steps
 CHANGE_EPOCH = 4               # change learning rate
-SAVE_EPOCH = 10
 USE_GPU = True                 # CHANGE THIS ON GPU!!
 DOWNLOAD_MNIST = False
 
@@ -88,7 +82,6 @@ my_transform = transforms.Compose([
     ])
 
 def train(IC, D, G, A, IC_solver, D_solver, G_solver, A_solver, device, train_loader, num_epoch):
-    # IC_gen = nn.Sequential(IC, nn.Tanh())
     iter_count = 0
     for epoch in range(num_epoch):
         if epoch % CHANGE_EPOCH == CHANGE_EPOCH - 1:

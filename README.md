@@ -11,7 +11,7 @@ The network consists of 5 parts:
 * an attribute encoder network E to extract attributes of digits 
 * a generator network G to synthesize a digit from a combined input of identity and attributes 
 * a classification network C to preserve the identity of the generated digits
-* a discriminate network D to distinguish between real and generated digits
+* a discriminate network D to distinguish between real and generated digits \
 For more details about the structure, please refer to this [paper](https://arxiv.org/abs/1803.11182). My network structure is similar to the model mentioned in this paper. 
 
 ## How to Use

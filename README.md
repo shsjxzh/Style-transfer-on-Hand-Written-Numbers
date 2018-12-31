@@ -17,7 +17,7 @@ For more details about the structure, please refer to this [paper](https://arxiv
 
 ### Train
     python main.py
-You can adjust the hyperparameter in the file "main.py"
+You can adjust the hyperparameters in the file "main.py".
 
 ## Some results
 

@@ -1,5 +1,5 @@
 # Style-transfer-on-Hand-Written-Numbers
-![image](https://github.com/shsjxzh/Style-transfer-on-Hand-Written-Numbers/blob/master/assets/demo.JPG)
+<center><img src="./assets/demo.JPG" align="middle" width="692"></center>
 
 ## Introduction
 In this task, we want to generate a new digit based on digit A's identity (what number it is) and digit B's attribute (the stroke width, rotation, e.t.c).

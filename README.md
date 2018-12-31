@@ -20,6 +20,8 @@ For more details about the structure, please refer to this [paper](https://arxiv
 Hyperparameters can be adjusted in the file "main.py". 
 
 ## Some results
+![image](https://github.com/shsjxzh/Style-transfer-on-Hand-Written-Numbers/blob/master/assets/more_train.jpg) \
+The numbers in red boxes are some good examples showing the proposed method works.
 
 ## Acknowledgements
 Code derived and rehashed from:

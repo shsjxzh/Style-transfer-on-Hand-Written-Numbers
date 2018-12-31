@@ -5,7 +5,7 @@
 In this task, we want to generate a new digit based on digit A's identity (what number it is) and digit B's attribute (the stroke width, rotation, e.t.c).
 
 ## Network Structure
-![image](https://github.com/shsjxzh/Style-transfer-on-Hand-Written-Numbers/blob/master/assets/structure.JPG)
+![image](https://github.com/shsjxzh/Style-transfer-on-Hand-Written-Numbers/blob/master/assets/structure.png)
 For more details about the structure, please refer to this [paper](https://arxiv.org/abs/1803.11182). My network structure is similar to the model mentioned in this paper.
 
 ## How to Use

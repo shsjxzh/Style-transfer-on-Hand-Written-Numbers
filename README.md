@@ -8,7 +8,7 @@ In this task, we want to generate a new digit based on digit A's identity (what 
 ![image](https://github.com/shsjxzh/Style-transfer-on-Hand-Written-Numbers/blob/master/assets/structure.png) \
 The network consists of 5 parts:
 * an identity encoder network I to encode the identities of digits
-* an attribute encoder network E to extract attributes of digits 
+* an attribute encoder network E to extract attributes of digits. It is similar to the encoder of **VAE**
 * a generator network G to synthesize a digit from a combined input of identity and attributes 
 * a classification network C to preserve the identity of the generated digits
 * a discriminate network D to distinguish between real and generated digits
